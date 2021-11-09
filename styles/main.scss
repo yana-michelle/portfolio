@@ -1,1 +1,105 @@
 @import "./vendor/normailize";
+@import "./partials/typography";
+@import "./partials/colors";
+@import "./partials/mixins";
+a{
+    text-decoration: none;
+    padding: 0 20px;
+    font: $primaryFont;
+}
+
+ul{
+  
+}
+
+li{
+    display: inline;
+    float: left;
+    list-style-type: none;
+}
+
+.thePlace{
+    text-decoration: underline;
+    text-decoration-color: white;
+    float: left;
+    line-height: 100px;
+    color: $primary-font-color;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: $primaryFont;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    line-height: 100px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: $primaryFont;
+    color: $primary-font-color;
+    display: block;
+    text-transform: uppercase;
+    max-width: 100%;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+    color: white;
+    
+}
+
+.nav {
+    background-color: #150300;
+    width: 100%;
+    height: 100px;
+}
+
+.title{
+    text-align: center;
+    float: left;
+    margin: 0 0 0 50px;
+    position: relative;
+    top: 100px;
+    width: 50%;
+    font-family: $title;
+}
+
+.paragraph1{
+    text-align: center;
+    float: left;
+    margin: 0 0 0 50px;
+    position: relative;
+    top: 150px;
+    right: 50px;
+    max-width: 50%;
+}
+
+.wrapper{
+    float: right;
+    margin: 0 50px;
+    max-width: 50%;
+    position: absolute;
+    top: 300px;
+    right: 25px;
+}
+
+aside{
+    float: left;
+    position: fixed;
+    top: 700px;
+}
+
+footer{
+    float: left;
+    position: fixed;
+    top: 700px;
+
+}
+
+body{
+    background-color: $backgroundColor;
+}
