@@ -8,9 +8,6 @@ a{
     font: $primaryFont;
 }
 
-ul{
-  
-}
 
 li{
     display: inline;
@@ -20,10 +17,10 @@ li{
 
 .thePlace{
     text-decoration: underline;
-    text-decoration-color: white;
+    text-decoration-color: $secondary-font-color;
     float: left;
     line-height: 100px;
-    color: $primary-font-color;
+    color: $secondary-font-color;
     text-transform: uppercase;
     font-size: 15px;
     font-family: $primaryFont;
@@ -31,7 +28,6 @@ li{
 
 ul li{
     list-style: none;
-    display: inline-block;
     float: right;
     line-height: 100px;
 }
@@ -40,20 +36,19 @@ ul li a{
     text-decoration: none;
     font-size: 15px;
     font-family: $primaryFont;
-    color: $primary-font-color;
+    color: $secondary-font-color;
     display: block;
     text-transform: uppercase;
     max-width: 100%;
+    border-radius: 20px;
 }
 
 ul li a:hover{
-    text-decoration: underline;
-    color: white;
-    
+    @include  Hover
 }
 
 .nav {
-    background-color: #150300;
+    background-color: $navBackground;
     width: 100%;
     height: 100px;
 }
@@ -66,6 +61,20 @@ ul li a:hover{
     top: 100px;
     width: 50%;
     font-family: $title;
+    font-size: 30px;
+    color: $primary-font-color;
+}
+
+.header{
+    text-align: center;
+    float: left;
+    margin: 0 0 0 50px;
+    position: relative;
+    top: 100px;
+    width: 50%;
+    font-family: $header;
+    font-size: 30px;
+    color: $secondary-font-color;
 }
 
 .paragraph1{
@@ -76,6 +85,9 @@ ul li a:hover{
     top: 150px;
     right: 50px;
     max-width: 50%;
+    font-family: $primaryFont;
+    color: $primary-font-color;
+    font-size: 15px;
 }
 
 .wrapper{
@@ -87,17 +99,31 @@ ul li a:hover{
     right: 25px;
 }
 
+figcaption{
+    font-family: $primaryFont;
+    color: $primary-font-color;
+}
+
 aside{
     float: left;
     position: fixed;
     top: 700px;
+    background-color: $dark-background;
+    font-family: $primaryFont;
+    color: $primary-font-color;
 }
 
 footer{
     float: left;
-    position: fixed;
+    position: absolute;
     top: 700px;
-
+    background-color: $dark-background;
+    font-family: $primaryFont;
+    color: $secondary-font-color;
+    text-align: center;
+    width: 100%;
+    line-height: 50px;
+    height: 50px;
 }
 
 body{

@@ -355,11 +355,11 @@ li {
 
 .thePlace {
   text-decoration: underline;
-  -webkit-text-decoration-color: white;
-          text-decoration-color: white;
+  -webkit-text-decoration-color: #DB8D33;
+          text-decoration-color: #DB8D33;
   float: left;
   line-height: 100px;
-  color: #575757;
+  color: #DB8D33;
   text-transform: uppercase;
   font-size: 15px;
   font-family: "Dosis", sans-serif;
@@ -367,7 +367,6 @@ li {
 
 ul li {
   list-style: none;
-  display: inline-block;
   float: right;
   line-height: 100px;
 }
@@ -376,15 +375,21 @@ ul li a {
   text-decoration: none;
   font-size: 15px;
   font-family: "Dosis", sans-serif;
-  color: #575757;
+  color: #DB8D33;
   display: block;
   text-transform: uppercase;
   max-width: 100%;
+  border-radius: 20px;
 }
 
 ul li a:hover {
   text-decoration: underline;
   color: white;
+  border-style: solid;
+  border-color: white;
+  border-radius: 20px;
+  background-color: #150300;
+  font-size: 17px;
 }
 
 .nav {
@@ -401,6 +406,20 @@ ul li a:hover {
   top: 100px;
   width: 50%;
   font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #575757;
+}
+
+.header {
+  text-align: center;
+  float: left;
+  margin: 0 0 0 50px;
+  position: relative;
+  top: 100px;
+  width: 50%;
+  font-family: "Marck Script", cursive;
+  font-size: 30px;
+  color: #DB8D33;
 }
 
 .paragraph1 {
@@ -411,6 +430,9 @@ ul li a:hover {
   top: 150px;
   right: 50px;
   max-width: 50%;
+  font-family: "Dosis", sans-serif;
+  color: #575757;
+  font-size: 15px;
 }
 
 .wrapper {
@@ -422,16 +444,31 @@ ul li a:hover {
   right: 25px;
 }
 
+figcaption {
+  font-family: "Dosis", sans-serif;
+  color: #575757;
+}
+
 aside {
   float: left;
   position: fixed;
   top: 700px;
+  background-color: #414141;
+  font-family: "Dosis", sans-serif;
+  color: #575757;
 }
 
 footer {
   float: left;
-  position: fixed;
+  position: absolute;
   top: 700px;
+  background-color: #414141;
+  font-family: "Dosis", sans-serif;
+  color: #DB8D33;
+  text-align: center;
+  width: 100%;
+  line-height: 50px;
+  height: 50px;
 }
 
 body {

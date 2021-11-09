@@ -1,0 +1,10 @@
+@mixin Hover
+{
+text-decoration: underline;
+color: white;
+border-style: solid;
+border-color: white;
+border-radius: 20px;
+background-color: $darker-background;
+font-size: 17px;
+}
