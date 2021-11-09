@@ -105,12 +105,17 @@ figcaption{
 }
 
 aside{
-    float: left;
+    display: inline-block;
+    text-align: center;
     position: fixed;
-    top: 700px;
-    background-color: $dark-background;
+    top: 670px;
+    right: 700px;
+    line-height: 50px;
+    height: 50px;
     font-family: $primaryFont;
     color: $primary-font-color;
+    text-decoration: none;
+    position: fixed;
 }
 
 footer{
