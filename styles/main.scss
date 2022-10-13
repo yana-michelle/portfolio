@@ -101,7 +101,7 @@ ul li a:hover{
 
 figcaption{
     font-family: $primaryFont;
-    color: $primary-font-color;
+    color: purple;
 }
 
 aside{
@@ -113,7 +113,7 @@ aside{
     line-height: 50px;
     height: 50px;
     font-family: $primaryFont;
-    color: $primary-font-color;
+    color: purple;
     text-decoration: none;
     position: fixed;
 }
@@ -124,7 +124,7 @@ footer{
     top: 700px;
     background-color: $dark-background;
     font-family: $primaryFont;
-    color: $secondary-font-color;
+    color: purple;
     text-align: center;
     width: 100%;
     line-height: 50px;
@@ -132,5 +132,5 @@ footer{
 }
 
 body{
-    background-color: $backgroundColor;
+    background-color: black;
 }
