@@ -414,6 +414,8 @@ ul li a:hover {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   color: purple;
+  padding: 10px;
+  background-color: black;
 }
 
 .header {
@@ -467,6 +469,33 @@ aside {
   color: #575757;
   text-decoration: none;
   position: fixed;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  background-color: black;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img{
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+(
+@media screen and (max-width: 800px) {
+  .column{
+    flex: 50%;
+    max-width: 50%;
+    background-color: #150300;
+  }
 }
 
 footer {
