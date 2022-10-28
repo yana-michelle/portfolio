@@ -500,6 +500,30 @@ aside {
   width: 100%;
 }
 
+.rowTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  background-color: black;
+}
+
+.columnTwo {
+  -webkit-box-flex: 20%;
+      -ms-flex: 20%;
+          flex: 20%;
+  max-width: 20%;
+  padding: 0 4px;
+}
+
+.columnTwo img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
 @media screen and (max-width: 800px) {
   .column {
     -webkit-box-flex: 50%;

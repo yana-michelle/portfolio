@@ -155,6 +155,28 @@
     vertical-align: middle;
     width: 100%;
   }
+
+  .rowTwo{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0 4px;
+    background-color: black;
+  }
+
+  .columnTwo{
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 4px;
+  }
+
+  .columnTwo img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
   
   @media screen and (max-width: 800px) {
     .column{
