@@ -448,7 +448,7 @@ ul li a:hover {
   right: 50px;
   max-width: 50%;
   font-family: "Dosis", sans-serif;
-  color: #23a844;
+  color: #bbf8cb;
   font-size: 15px;
 }
 
@@ -514,18 +514,9 @@ aside {
   background-color: black;
 }
 
-.columnTwo {
-  -webkit-box-flex: 20%;
-      -ms-flex: 20%;
-          flex: 20%;
-  max-width: 20%;
-  padding: 0 4px;
-}
-
-.columnTwo img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+.dreamOne {
+  font-family: "Dosis", sans-serif;
+  margin-top: 90px;
 }
 
 .illPhotos {
