@@ -349,6 +349,11 @@ a {
   text-decoration: none;
   padding: 0 20px;
   font: "Dosis", sans-serif;
+  color: white;
+}
+
+a:hover {
+  color: purple;
 }
 
 li {
@@ -517,11 +522,40 @@ aside {
 .dreamOne {
   font-family: "Dosis", sans-serif;
   margin-top: 90px;
+  text-align: center;
+  color: white;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+}
+
+.dreamTwo {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+}
+
+.dreamThree {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+}
+
+.dreamFour {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
 }
 
 .illPhotos {
   margin-top: 20px;
   padding-top: 10px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.illOne {
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.illTwo {
   -ms-flex-line-pack: center;
       align-content: center;
 }
